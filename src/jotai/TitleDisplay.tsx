@@ -3,7 +3,7 @@ import { useAtom } from 'jotai';
 import { titleAtom } from './store';
 
 const TitleDisplay: FC = () => {
-    console.log('TitleDisplay rendered');
+    console.log('[Jotai]: TitleDisplay rendered');
     const [title, setTitle] = useAtom(titleAtom);
 
     return (

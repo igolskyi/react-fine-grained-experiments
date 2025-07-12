@@ -3,7 +3,7 @@ import { useAtomValue } from 'jotai';
 import { countAtom } from './store';
 
 const CounterDisplay: FC = () => {
-    console.log('CounterDisplay rendered');
+    console.log('[Jotai]: CounterDisplay rendered');
     const count = useAtomValue(countAtom);
 
     return (

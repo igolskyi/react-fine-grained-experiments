@@ -3,7 +3,7 @@ import { useSetAtom } from 'jotai';
 import { incrementAtom, decrementAtom } from './store';
 
 const CounterControls: FC = () => {
-    console.log('CounterControls rendered');
+    console.log('[Jotai]: CounterControls rendered');
     const increment = useSetAtom(incrementAtom);
     const decrement = useSetAtom(decrementAtom);
 

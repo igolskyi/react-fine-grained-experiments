@@ -2,7 +2,7 @@ import { atom } from 'jotai';
 
 // Basic atoms for state
 export const countAtom = atom(0);
-export const titleAtom = atom('My Counter App');
+export const titleAtom = atom('Jotai Counter App');
 
 // Derived atoms for actions
 export const incrementAtom = atom(
