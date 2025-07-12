@@ -1,5 +1,6 @@
 import { type FC } from 'react';
 import ZustandCounter from './zustand/Zustand';
+import JotaiCounter from './jotai/Jotai';
 
 const styles = {
     grid: 'grid grid-cols-1 md:grid-cols-3 gap-5',
@@ -12,7 +13,7 @@ const App: FC = () => {
                 <ZustandCounter />
             </div>
             <div className="border p-5">
-                {/* <JotaiCounter /> */}
+                <JotaiCounter />
             </div>
             <div className="border p-5">
                 {/* <RecoilCounter /> */}

@@ -3,13 +3,13 @@ import CounterDisplay from './CounterDisplay';
 import CounterControls from './CounterControls';
 import TitleDisplay from './TitleDisplay';
 
-const Zustand: FC = () => {
-    console.log('Zustand rendered');
+const Jotai: FC = () => {
+    console.log('Jotai rendered');
     return (
         <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 shadow-lg w-full max-w-sm mx-auto">
             <div className="flex flex-col gap-10">
                 <h1 className="text-4xl font-bold text-white text-start">
-                    Zustand Counter
+                    Jotai Counter
                 </h1>
                 <TitleDisplay />
                 <CounterDisplay />
@@ -19,4 +19,4 @@ const Zustand: FC = () => {
     );
 };
 
-export default Zustand;
+export default Jotai;
