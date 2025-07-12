@@ -7,7 +7,7 @@ const ReactCounter: FC = () => {
     console.log('React rendered');
 
     const [count, setCount] = useState(0);
-    const [title, setTitle] = useState('React Counter');
+    const [title, setTitle] = useState('React Counter App');
 
     const increment = useCallback(() => setCount((c) => c + 1), []);
     const decrement = useCallback(() => setCount((c) => c - 1), []);

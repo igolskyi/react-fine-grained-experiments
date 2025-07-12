@@ -7,7 +7,7 @@ interface TitleState {
 
 // Title store - only for title-related state
 export const useTitleStore = create<TitleState>((set) => ({
-    title: 'Zustand Counter',
+    title: 'Zustand Counter App',
     setTitle: (newTitle) => set({ title: newTitle }),
 }));
 
