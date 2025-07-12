@@ -5,6 +5,7 @@ import TitleDisplay from './TitleDisplay';
 
 const Jotai: FC = () => {
     console.log('Jotai rendered');
+
     return (
         <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 shadow-lg w-full max-w-sm mx-auto">
             <div className="flex flex-col gap-10">
