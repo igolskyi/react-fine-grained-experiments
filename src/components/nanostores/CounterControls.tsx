@@ -1,11 +1,7 @@
-import { type FC } from 'react';
-import { useSetAtom } from 'jotai';
-import { incrementAtom, decrementAtom } from './store';
+import { increment, decrement } from './store';
 
-const CounterControls: FC = () => {
-    console.log('[Jotai]: CounterControls rendered');
-    const increment = useSetAtom(incrementAtom);
-    const decrement = useSetAtom(decrementAtom);
+export function CounterControls() {
+    console.log('[Nanostores]: CounterControls rendered');
 
     return (
         <div className="flex items-center justify-center gap-10">
@@ -23,6 +19,4 @@ const CounterControls: FC = () => {
             </button>
         </div>
     );
-};
-
-export default CounterControls;
+}
